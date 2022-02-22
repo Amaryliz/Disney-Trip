@@ -26,6 +26,18 @@ body {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
 }
 
+#btn {
+  text-align: left;
+}
+
+button {
+  background-color: #f1c0e8;
+  font-family: "waltographRegular", "Times New Roman";
+  font-size: 25px;
+  border-radius: 60%;
+  border-color: #98f5e1;
+}
+
 h1 {
   font-family: "WaltographRegular", "Times New Roman", Times, serif;
   text-align: center;
@@ -40,7 +52,7 @@ h1 {
 
 .nav-links {
   color: #fbf8cc;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 p {
@@ -56,7 +68,7 @@ p {
 }
 
 img {
-  width: 50%;
+  width: 60%;
   height: 10%;
   border-radius: 10%;
   border: 3px solid #90be6d;

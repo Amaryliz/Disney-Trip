@@ -26,7 +26,7 @@ body {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
 }
 
-#btn {
+.btn {
   text-align: left;
 }
 
@@ -55,12 +55,11 @@ h1 {
   font-size: 25px;
 }
 
-p {
+.main {
   text-align: center;
-  font-size: 18px;
-  color: #f1c0e8;
+  font-size: 23px;
+  color: #fde4cf;
   font: bold;
-  font-size: 25px;
   margin-top: 40px;
   margin-left: 50px;
   margin-right: 50px;
@@ -83,7 +82,7 @@ h2 {
   color: #98f5e1;
   text-align: center;
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 li {
@@ -129,4 +128,32 @@ span {
 a {
   color: #b9fbc0;
   text-decoration: #b9fbc0 straight underline;
+}
+
+h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #9ac6c5;
+}
+
+.hotel {
+  text-align: center;
+  font-size: 18px;
+  color: #f1c0e8;
+  font: bold;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 1px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: #f1c0e8;
+  font: bold;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 1px;
 }

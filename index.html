@@ -13,16 +13,16 @@
       type="text/css"
     />
   </head>
-  <div id="btn">
-    <button id="dark-mode-btn" onclick="toggleDarkMode()">Dark mode</button>
+  <div class="btn">
+    <button class="dark-mode-btn" onclick="toggleDarkMode()">Dark mode</button>
   </div>
   <body id="main-background">
     <h1>The Perfect Disney Vacation</h1>
     <nav>
       <ul class="container">
         <li class="nav-links">Home</li>
-        <li class="nav-links">Hotels and Tickets</li>
-        <li class="nav-links">Parks</li>
+        <li><a href="hotel.html" class="nav-links">Hotels</a></li>
+        <li><a href="parks.html" class="nav-links">Parks</a></li>
         <li class="nav-links">Food</li>
       </ul>
     </nav>
@@ -33,7 +33,7 @@
       />
     </div>
 
-    <p>
+    <p class="main">
       Planning a Disney trip for just one day isn't easy... So imagine trying to
       plan a four day vacation. Some people will hire someone to plan their
       vactions, which there is nothing wrong with. But if you're like me, you
@@ -43,7 +43,7 @@
 
     <h2>The most important things to plan are:</h2>
     <ul>
-      <li class="points">Tickets and Hotel stays</li>
+      <li class="points">Which Hotel to pick</li>
       <li class="points">Theme Parks</li>
       <li class="points" id="last-point">Places to eat</li>
     </ul>

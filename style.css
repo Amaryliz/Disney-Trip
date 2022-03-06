@@ -52,7 +52,7 @@ h1 {
 
 .nav-links {
   color: #fbf8cc;
-  font-size: 25px;
+  font-size: 90%;
 }
 
 .main {
@@ -111,10 +111,16 @@ section {
   justify-content: space-around;
 }
 
-.main-page {
+.gallery {
   width: 30%;
   border-radius: 50%;
   margin: 20px;
+}
+
+#food {
+  color: #b9fbc0;
+  font-size: 150%;
+  padding-bottom: 15px;
 }
 
 span {
